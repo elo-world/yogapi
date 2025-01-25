@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+nav ul {
+    padding: 1vh 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+}
+
+nav ul li a svg {
+    height: 4vh;
+}

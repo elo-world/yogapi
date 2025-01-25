@@ -1,0 +1,123 @@
+.character {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character svg {
+    width: 50%;
+    max-height: 70vh;
+    overflow: visible;
+}
+
+.character #character #head {
+    animation: Breathe 6s infinite;
+}
+
+.character #character #head #eyes {
+    transform-origin: 0% 27%;
+    animation: Blink 4s infinite;
+}
+
+.character #character #head #eyes g #pupil {
+    transform-origin: 0% 29%;
+}
+
+@keyframes Breathe {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1.5%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes Blink {
+    0% {
+        transform: scaleY(1);
+    }
+    95% {
+        transform: scaleY(1);
+    }
+    97.25% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes Hello {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(160deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    75% {
+        transform: rotate(160deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes HypeArmL {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(40deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes HypeArmR {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes HypeHead {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

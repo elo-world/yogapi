@@ -1,0 +1,10 @@
+@import url("./font.css");
+@import url("./style.css");
+@import url("./components/nav.css");
+@import url("./components/character.css");
+@import url("./components/gem.css");
+@import url("./pages/home.css");
+@import url("./pages/workout.css");
+@import url("./pages/shop.css");
+@import url("./pages/workout-completed.css");
+@import url("./components/pop-up-menu.css");

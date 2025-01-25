@@ -1,0 +1,13 @@
+.gem-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gem-bar p {
+    margin-right: 1vw;
+}
+
+.gem {
+    height: 4vh;
+}
