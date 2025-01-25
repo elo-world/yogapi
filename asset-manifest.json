@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/yogapi/static/css/main.1de83038.css",
+    "main.js": "/yogapi/static/js/main.5d091288.js",
+    "static/media/FredokaOne-Regular.ttf": "/yogapi/static/media/FredokaOne-Regular.4aea26dd6637dfac0fac.ttf",
+    "static/media/character-wonder.svg": "/yogapi/static/media/character-wonder.3291f961f8c50f6fa93ad109e401fc72.svg",
+    "static/media/character-simple.svg": "/yogapi/static/media/character-simple.57c679b593e4f775040dcf7ec75da23c.svg",
+    "static/media/TimerFlower.svg": "/yogapi/static/media/TimerFlower.2fa8cc8ff89fd3ff75df0b83288feecc.svg",
+    "static/media/Background.svg": "/yogapi/static/media/Background.074e2c9442a011713746fe8970eb1024.svg",
+    "static/media/Gem.svg": "/yogapi/static/media/Gem.4b59a0a39bd148d073f7272d555ba640.svg",
+    "index.html": "/yogapi/index.html",
+    "static/media/Flower.svg": "/yogapi/static/media/Flower.f654e757ae51d326152dd209d95497a6.svg",
+    "static/media/shop.svg": "/yogapi/static/media/shop.63720948554bd0d0dcf2cebbd6c6ac29.svg",
+    "static/media/exercise.svg": "/yogapi/static/media/exercise.e220acacbfc9aa1d7c097de0ff43ff8d.svg",
+    "static/media/pause.svg": "/yogapi/static/media/pause.a676601dbc3843f8eff0ef113c3eff26.svg",
+    "static/media/preference.svg": "/yogapi/static/media/preference.27ab87791bd91feaf51a11d13ff5d9f7.svg",
+    "static/media/home.svg": "/yogapi/static/media/home.f1054e4620856a8b3667c31db4cc1ae1.svg",
+    "static/media/hand.svg": "/yogapi/static/media/hand.056baa845e935c69c4d8e03dbcfd1df1.svg",
+    "static/media/play.svg": "/yogapi/static/media/play.44cb6508a9227bd04b0c2f3fa4819eb3.svg",
+    "main.1de83038.css.map": "/yogapi/static/css/main.1de83038.css.map",
+    "main.5d091288.js.map": "/yogapi/static/js/main.5d091288.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de83038.css",
+    "static/js/main.5d091288.js"
+  ]
+}
