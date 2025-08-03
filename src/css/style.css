@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* COLORS */
+    --main-color: white;
+    --button-color: #ffd600;
+    --grey-color: #d0d8e0;
+    --orange-color: #ff8a00;
+    --blue-color: #78baf8;
+    --font-color-important: #0b1345;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+button,
+li,
+p {
+    font-family: Fredoka;
+    color: black;
+}
+
+p {
+    font-size: 3vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-button {
+    background: var(--button-color);
+    border: none;
+    font-size: 3vh;
+    padding: 2vh 4vw;
+    border-radius: 10px;
+}

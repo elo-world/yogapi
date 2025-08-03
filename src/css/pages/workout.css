@@ -1,0 +1,151 @@
+.workout {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workout .play {
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    background: none;
+    border: none;
+    outline: none;
+    z-index: 1000;
+}
+
+.workout .play svg {
+    height: 4vh;
+}
+
+.workout .timer-flower {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout .timer-flower p {
+    font-size: 5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.workout .timer-flower .flower circle {
+    transition: 500ms ease-out;
+}
+
+.workout .timer-flower .flower path {
+    transition: 500ms ease-out;
+}
+
+.workout .timer-flower .flower.break-style circle {
+    fill: #89a9fb;
+}
+
+.workout .timer-flower .flower.break-style path {
+    fill: #4176ff;
+}
+
+.workout .display {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout .display .character svg {
+    width: 80%;
+}
+
+.workout .display .character #arms {
+    display: none;
+}
+
+.workout .display .images {
+    width: 85vw;
+    height: 30vh;
+    background: var(--main-color);
+    border: 0.5vh solid black;
+    box-shadow: -1vh 1vh 0 black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.workout .display .images .images-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout .display .images .images-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.workout .display .images .images-box svg {
+    height: 6vh;
+}
+
+.workout .display .images .images-box .left-hand {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.workout .display .images .images-box .right-hand {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.workout .display .workout-background {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -100;
+}
+
+.workout .progress {
+    position: relative;
+    width: 80vw;
+    height: 3vh;
+}
+
+.workout .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: var(--grey-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.workout .progress .progress-bar .progress-cursor {
+    width: 100%;
+    height: 100%;
+    background: var(--blue-color);
+    transform-origin: left;
+    transition: transform 200ms ease-out;
+}
+
+.workout .progress .flower {
+    height: 6vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: left 200ms ease-out;
+}
