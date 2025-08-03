@@ -1,0 +1,37 @@
+{
+    "short_name": "Yogapi",
+    "name": "Yogapi",
+    "icons": [
+        {
+            "src": "Images/Logo/Logo192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "Images/Logo/Logo.ico",
+            "type": "image/ico",
+            "sizes": "256x256"
+        },
+        {
+            "src": "Images/Logo/Logo.svg",
+            "type": "image/svg",
+            "sizes": "512x512"
+        },
+        {
+            "src": "Images/Logo/Logo512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "Images/Logo/Logo_maskable.png",
+            "type": "image/png",
+            "sizes": "1024x1024",
+            "purpose": "maskable"
+        }
+    ],
+    "id": "/yogapi/",
+    "start_url": "/yogapi/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
