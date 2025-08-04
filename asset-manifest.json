@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yogapi/static/css/main.1de83038.css",
-    "main.js": "/yogapi/static/js/main.eaec0d4e.js",
+    "main.js": "/yogapi/static/js/main.77daad0a.js",
     "static/media/FredokaOne-Regular.ttf": "/yogapi/static/media/FredokaOne-Regular.4aea26dd6637dfac0fac.ttf",
     "static/media/character-wonder.svg": "/yogapi/static/media/character-wonder.0b643048b980ac3c2803dd2c7de7a54d.svg",
     "static/media/character-simple.svg": "/yogapi/static/media/character-simple.0489022e29d1edfcf8296b86194b7bd7.svg",
@@ -18,10 +18,10 @@
     "static/media/hand.svg": "/yogapi/static/media/hand.e6f7f8b4fc883acddd58b78ea49d4c87.svg",
     "static/media/play.svg": "/yogapi/static/media/play.44cb6508a9227bd04b0c2f3fa4819eb3.svg",
     "main.1de83038.css.map": "/yogapi/static/css/main.1de83038.css.map",
-    "main.eaec0d4e.js.map": "/yogapi/static/js/main.eaec0d4e.js.map"
+    "main.77daad0a.js.map": "/yogapi/static/js/main.77daad0a.js.map"
   },
   "entrypoints": [
     "static/css/main.1de83038.css",
-    "static/js/main.eaec0d4e.js"
+    "static/js/main.77daad0a.js"
   ]
 }
