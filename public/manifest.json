@@ -29,8 +29,8 @@
             "purpose": "maskable"
         }
     ],
-    "id": "/yogapi/#/",
-    "start_url": "/yogapi/#/",
+    "id": "/yogapi/",
+    "start_url": "/yogapi/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
