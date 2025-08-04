@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/nav-pages/Home";
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Exercices from "./pages/nav-pages/Exercices";
 import Shop from "./pages/nav-pages/Shop";
 import Workout from "./pages/workout/Workout";
@@ -10,7 +10,7 @@ import WorkoutCompleted from "./pages/workout/WorkoutCompleted";
 
 const App = () => {
     return (
-        <>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Nav />}>
                     <Route index element={<Home />} />
@@ -19,12 +19,9 @@ const App = () => {
                     <Route path="shop" element={<Shop />} />
                 </Route>
                 <Route path="/workout" element={<Workout />} />
-                <Route
-                    path="/workout-completed"
-                    element={<WorkoutCompleted />}
-                />
+                <Route path="/workout-completed" element={<WorkoutCompleted />} />
             </Routes>
-        </>
+        </HashRouter>
     );
 };
 
