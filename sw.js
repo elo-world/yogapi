@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v1.0.2";
+const CACHE_VERSION = "v1.0.0";
 var urlsToCache = ["./"];
 
 self.addEventListener("install", (event) => {
@@ -19,9 +19,7 @@ self.addEventListener("activate", (event) => {
     event.waitUntil(
         caches.keys().then((keys) => {
             return Promise.all(
-                keys
-                    .filter((key) => key !== CACHE_VERSION)
-                    .map((key) => caches.delete(key))
+                keys.filter((key) => key !== CACHE_VERSION).map((key) => caches.delete(key))
             );
         })
     );
@@ -39,11 +37,7 @@ self.addEventListener("fetch", (event) => {
 
             return fetch(event.request).then((response) => {
                 // Check if we received a valid response
-                if (
-                    !response ||
-                    response.status !== 200 ||
-                    response.type !== "basic"
-                ) {
+                if (!response || response.status !== 200 || response.type !== "basic") {
                     return response;
                 }
 
