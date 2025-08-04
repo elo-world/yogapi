@@ -1,5 +1,5 @@
 const CACHE_VERSION = "v1.0.0";
-var urlsToCache = ["./yogapi/"];
+var urlsToCache = ["./"];
 
 self.addEventListener("install", (event) => {
     self.skipWaiting();
